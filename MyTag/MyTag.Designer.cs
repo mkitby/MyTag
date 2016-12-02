@@ -84,9 +84,9 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 383);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 385);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(349, 24);
+            this.statusStrip1.Size = new System.Drawing.Size(349, 22);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -94,7 +94,7 @@
             // 
             this.toolStripStatusLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 19);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
             this.toolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tagTreeView
@@ -119,6 +119,7 @@
             this.Controls.Add(this.tagTreeView);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "MyTag";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MyTag";
             this.Load += new System.EventHandler(this.MyTag_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MyTag_DragDrop);
